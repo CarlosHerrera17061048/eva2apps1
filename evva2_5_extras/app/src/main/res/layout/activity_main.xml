@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edad:" />
+
+    <EditText
+        android:id="@+id/edtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deposito" />
+
+    <EditText
+        android:id="@+id/edtDeposito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anime Favorito?" />
+
+    <RadioGroup
+        android:id="@+id/rdgAnime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbSnk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shingeki no Kyojin" />
+
+        <RadioButton
+            android:id="@+id/rbDbz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dragon Ball Z" />
+
+        <RadioButton
+            android:id="@+id/rbDn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Death Note" />
+
+        <RadioButton
+            android:id="@+id/rbNnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nanatsu No Taizai" />
+
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cbInfoAdicional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informacion Adicional" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Enviar" />
+</LinearLayout>
